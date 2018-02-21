@@ -29,7 +29,8 @@ diff between them; more precisely, it is what changed from the first config
 to the second config.
 
 Each line is either of the form `-OPTION [y|n|m|int|text]`, `+OPTION [y|n|m|int|text]`, or
-` OPTION [y|n|m|int|text] -> [y|n|m|int|text]` (note the preceding space). It makes it
+` OPTION [y|n|m|int|text] -> [y|n|m|int|text]` (note the preceding space -- thank you markdown for
+removing it). It makes it
 very easy to be read by humans, but a lack of line numbers means that neither `git` nor `patch`
 can handle it (as far as I know) if you want t "apply" the diff in the same manner as a patch.
 
