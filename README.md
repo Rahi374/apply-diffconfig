@@ -32,7 +32,7 @@ Each line is either of the form `-OPTION [y|n|m|int|text]`, `+OPTION [y|n|m|int|
 ` OPTION [y|n|m|int|text] -> [y|n|m|int|text]` (note the preceding space -- thank you markdown for
 removing it). It makes it
 very easy to be read by humans, but a lack of line numbers means that neither `git` nor `patch`
-can handle it (as far as I know) if you want t "apply" the diff in the same manner as a patch.
+can handle it (as far as I know) if you want to "apply" the diff in the same manner as a patch.
 
 It is also unfortunately tedious to go through your config and edit each option by hand.
 Its worse when there are dependencies. If you can just apply the whole diff, then there would
